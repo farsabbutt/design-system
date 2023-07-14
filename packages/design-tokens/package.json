@@ -1,0 +1,14 @@
+{
+  "name": "design-tokens",
+  "version": "1.0.0",
+  "description": "Design tokens specifications such as Colors, Breakpoints etc.",
+  "main": "dist/index.js",
+  "module": "dist/index.modern.js",
+  "source": "src/index.ts",
+  "scripts": {
+    "build": "microbundle-crl --no-compress --format modern,cjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

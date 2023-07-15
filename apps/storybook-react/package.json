@@ -1,6 +1,6 @@
 {
   "name": "@farsabbutt/storybook-react",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "license": "NONE",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
@@ -14,6 +14,7 @@
     "@types/node": "20.4.2",
     "@types/react": "18.2.15",
     "@types/react-dom": "18.2.7",
+    "classnames": "^2.3.2",
     "eslint": "8.45.0",
     "eslint-config-next": "13.4.10",
     "next": "13.4.10",
@@ -37,6 +38,7 @@
     "@storybook/react": "7.0.27",
     "@storybook/testing-library": "0.0.14-next.2",
     "autoprefixer": "^10.4.14",
+    "design-tokens": "*",
     "eslint-plugin-storybook": "^0.6.12",
     "microbundle": "^0.15.1",
     "postcss": "^8.4.26",

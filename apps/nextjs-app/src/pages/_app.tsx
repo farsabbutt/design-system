@@ -1,4 +1,4 @@
-import 'storybook-react/dist/index.css'
+import '@farsabbutt/storybook-react/dist/index.css'
 import type { AppProps } from 'next/app'
 
 export default function App({ Component, pageProps }: AppProps) {

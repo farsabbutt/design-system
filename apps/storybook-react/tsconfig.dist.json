@@ -15,8 +15,8 @@
     "strictNullChecks": true,
     "noUnusedLocals": false,
     "noUnusedParameters": true,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
   },
   "include": ["src/components"],
-  "exclude": ["node_modules", "dist", "example"]
+  "exclude": ["node_modules", "dist", "example", ".storybook", "public", "tailwind.config.js"]
 }

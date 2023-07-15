@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
-import { Button } from 'storybook-react'
+import { Button } from '@farsabbutt/storybook-react'
 export default function Home() {
   return (
     <>
@@ -15,7 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
-        <Button />
+        <Button onClick={() => alert("hello")} />
       </main>
     </>
   )

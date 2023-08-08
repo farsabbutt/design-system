@@ -8,6 +8,9 @@
       <excludeFolder url="file://$MODULE_DIR$/packages/ui-react/.turbo" />
       <excludeFolder url="file://$MODULE_DIR$/packages/ui-react/node_modules" />
       <excludeFolder url="file://$MODULE_DIR$/apps/nextjs-app/.turbo" />
+      <excludeFolder url="file://$MODULE_DIR$/apps/storybook-react/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/apps/storybook-react/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/apps/storybook-react/storybook-static" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

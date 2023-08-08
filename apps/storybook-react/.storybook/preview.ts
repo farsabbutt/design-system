@@ -1,5 +1,5 @@
 import type { Preview } from "@storybook/react";
-import 'ui-react/dist/index.css';
+import '../src/tailwind.css';
 const preview: Preview = {
   parameters: {
     actions: { argTypesRegex: "^on[A-Z].*" },

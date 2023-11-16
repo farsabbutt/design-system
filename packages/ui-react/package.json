@@ -6,8 +6,8 @@
   "source": "src/index.tsx",
   "license": "MIT",
   "scripts": {
-    "build": "rm -rf dist && NODE_ENV=production microbundle-crl --no-compress --format modern,cjs",
-    "dev": "NODE_ENV=development microbundle-crl watch --no-compress --format modern,cjs ",
+    "build": "rm -rf dist && NODE_ENV=production microbundle --no-compress --format modern,cjs",
+    "dev": "rm -rf dist && NODE_ENV=development microbundle watch --no-compress --format modern,cjs",
     "lint": "eslint \"**/*.ts*\""
   },
   "peerDependencies": {
@@ -16,14 +16,16 @@
   "devDependencies": {
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
-    "autoprefixer": "^9",
+    "autoprefixer": "^10.4.14",
+    "design-tokens": "*",
     "eslint": "^7.32.0",
     "eslint-config-custom": "*",
-    "microbundle-crl": "^0.13.11",
-    "postcss": "^7",
+    "microbundle": "^0.15.1",
+    "postcss": "^8.4.26",
     "react": "^17.0.2",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
-    "design-tokens": "*",
     "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.3.3"
   }
 }
